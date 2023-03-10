@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d744436f-6cbd-478c-9f87-3751ef39edec" name="Changes" comment="commit">
+    <list default="true" id="d744436f-6cbd-478c-9f87-3751ef39edec" name="Changes" comment="update to story">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ClubFaceControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClubFaceControl.java" afterDir="false" />
     </list>
@@ -72,6 +73,13 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.ClubFaceControl">
+    <configuration name="Bar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bar" />
+      <module name="ClubFaceControl.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClubFaceControl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ClubFaceControl" />
       <module name="ClubFaceControl.main" />
@@ -113,6 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bar" />
         <item itemvalue="Application.ClubFaceControl" />
         <item itemvalue="Application.Thermometer" />
       </list>
@@ -148,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678362369982</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update to story">
+      <created>1678433828080</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678433828080</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,7 +180,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="update to story" />
+    <option name="LAST_COMMIT_MESSAGE" value="update to story" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
