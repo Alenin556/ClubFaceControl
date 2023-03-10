@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d744436f-6cbd-478c-9f87-3751ef39edec" name="Changes" comment="update 2.5 fix bar.What happened if you don't have enough money.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BarWithFirstGirl.java" afterDir="false" />
+    <list default="true" id="d744436f-6cbd-478c-9f87-3751ef39edec" name="Changes" comment="update 2.6 fix bar and wallet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/OnceAtNightAtClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnceAtNightAtClub.java" afterDir="false" />
     </list>
@@ -206,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678467849598</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update 2.6 fix bar and wallet">
+      <created>1678469593231</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678469593231</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,7 +236,8 @@
     <MESSAGE value="update 2.3 fix bugs, added new choices" />
     <MESSAGE value="update 2.4 fix bugs, added new choices" />
     <MESSAGE value="update 2.5 fix bar.What happened if you don't have enough money." />
-    <option name="LAST_COMMIT_MESSAGE" value="update 2.5 fix bar.What happened if you don't have enough money." />
+    <MESSAGE value="update 2.6 fix bar and wallet" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 2.6 fix bar and wallet" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
