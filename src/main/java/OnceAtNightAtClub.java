@@ -26,23 +26,28 @@ public class OnceAtNightAtClub {
         System.out.println("2 - 7500");
         System.out.println("3 - 10900");
         System.out.println("4 - 20000");
+        System.out.println("5 - 100");
         int cash = sc.nextInt();
         switch (cash) {
             case 1:
                 cash = 5000;
-                System.out.println("You have 5000 for the night. Good luck.");
+                System.out.println("You have 5000 for the night. Good luck. Have a good night.");
                 break;
             case 2:
                 cash = 7500;
-                System.out.println("You have 7500 for the night. Good luck.");
+                System.out.println("You have 7500 for the night. Good luck. Have a good night.");
                 break;
             case 3:
                 cash = 10900;
-                System.out.println("You have 10900 for the night. Good luck.");
+                System.out.println("You have 10900 for the night. Good luck. Have a good night.");
                 break;
             case 4:
                 cash = 20000;
                 System.out.println("You have 20000 for the night. Good luck. Have a good night.");
+                break;
+            case 5:
+                cash = 100;
+                System.out.println("You have 100 for the night. Good luck. Have a good night.");
                 break;
             default:
                 System.out.println("You entered the wrong input. Try again.");
@@ -221,8 +226,12 @@ public class OnceAtNightAtClub {
                         switch (answerBarmen1) {
                             case 1:
                                 System.out.println("Barman : Okay , this is your whiskey.");
-                                cash = cash - 1000;
-                                System.out.println("Your wallet :" + cash);
+                                if (cash>=1000) {
+                                    cash = cash - 1000;
+                                    System.out.println("Your wallet :" + cash);
+                                } else {
+                                    System.out.println("You don't have enough money.");
+                                }
                                 break;
                             case 2:
                                 System.out.println("Barman: Okay, anything else?");
@@ -236,8 +245,12 @@ public class OnceAtNightAtClub {
                         switch (answerBarmen1) {
                             case 1:
                                 System.out.println("Barman : Okay , this is your vodka.");
-                                cash = cash - 500;
-                                System.out.println("Your wallet :" + cash);
+                                if (cash>=500) {
+                                    cash = cash - 500;
+                                    System.out.println("Your wallet :" + cash);
+                                }else {
+                                    System.out.println("You don't have enough money.");
+                                }
                                 break;
                             case 2:
                                 System.out.println("Barman: Okay, anything else?");
@@ -251,8 +264,12 @@ public class OnceAtNightAtClub {
                         switch (answerBarmen1) {
                             case 1:
                                 System.out.println("Barman : Okay , this is your cognac.");
-                                cash = cash - 650;
-                                System.out.println("Your wallet :" + cash);
+                                if (cash>=650) {
+                                    cash = cash - 650;
+                                    System.out.println("Your wallet :" + cash);
+                                }else {
+                                    System.out.println("You don't have enough money.");
+                                }
                                 break;
                             case 2:
                                 System.out.println("Barman: Okay, anything else?");
@@ -266,8 +283,12 @@ public class OnceAtNightAtClub {
                         switch (answerBarmen1) {
                             case 1:
                                 System.out.println("Barman : Okay , this is your champagne.");
-                                cash = cash - 750;
-                                System.out.println("Your wallet :" + cash);
+                                if (cash>=750) {
+                                    cash = cash - 750;
+                                    System.out.println("Your wallet :" + cash);
+                                }else {
+                                    System.out.println("You don't have enough money.");
+                                }
                                 break;
                             case 2:
                                 System.out.println("Barman: Okay, anything else?");
@@ -294,8 +315,12 @@ public class OnceAtNightAtClub {
                                     switch (answerAboutCocktail) {
                                         case 1:
                                             System.out.println("Barman: Okay , this is your cocktail.");
-                                            cash = cash - 400;
-                                            System.out.println("Your wallet :" + cash);
+                                            if (cash>=400) {
+                                                cash = cash - 450;
+                                                System.out.println("Your wallet :" + cash);
+                                            }else {
+                                                System.out.println("You don't have enough money.");
+                                            }
                                             break;
                                         case 2:
                                             System.out.println("Okay. Anything else?");
@@ -311,8 +336,12 @@ public class OnceAtNightAtClub {
                                 switch (answerAboutCocktail) {
                                     case 1:
                                         System.out.println("Barman: Okay , this is your cocktail.");
-                                        cash = cash - 400;
-                                        System.out.println("Your wallet :" + cash);
+                                        if (cash>=400) {
+                                            cash = cash - 400;
+                                            System.out.println("Your wallet :" + cash);
+                                        }else {
+                                            System.out.println("You don't have enough money.");
+                                        }
                                         break;
                                     case 2:
                                         System.out.println("Okay. Anything else?");
@@ -327,8 +356,12 @@ public class OnceAtNightAtClub {
                         switch (answerBarmen1) {
                             case 1:
                                 System.out.println("Barman : Okay , this is your shots.");
-                                cash = cash - 1200;
-                                System.out.println("Your wallet :" + cash);
+                                if (cash>=1200) {
+                                    cash = cash - 12000;
+                                    System.out.println("Your wallet :" + cash);
+                                }else {
+                                    System.out.println("You don't have enough money.");
+                                }
                                 break;
                             case 2:
                                 System.out.println("Barman: Okay, anything else?");
@@ -342,8 +375,12 @@ public class OnceAtNightAtClub {
                         switch (answerBarmen1) {
                             case 1:
                                 System.out.println("Barman : Okay , this is your cola.");
-                                cash = cash - 200;
-                                System.out.println("Your wallet :" + cash);
+                                if (cash>=200) {
+                                    cash = cash - 200;
+                                    System.out.println("Your wallet :" + cash);
+                                }else {
+                                    System.out.println("You don't have enough money.");
+                                }
                                 break;
                             case 2:
                                 System.out.println("Barman: Okay, anything else?");
@@ -357,8 +394,12 @@ public class OnceAtNightAtClub {
                         switch (answerBarmen1) {
                             case 1:
                                 System.out.println("Barman : Okay , this is your water in glass.");
-                                cash = cash - 250;
-                                System.out.println("Your wallet :" + cash);
+                                if (cash>=500) {
+                                    cash = cash - 500;
+                                    System.out.println("Your wallet :" + cash);
+                                }else {
+                                    System.out.println("You don't have enough money.");
+                                }
                                 break;
                             case 2:
                                 System.out.println("Barman: Okay, anything else?");
