@@ -5,7 +5,8 @@ public class ClubFaceControl {
 
         String[] drinks = {" ", "Whiskey", "Vodka", "Cognac", "Champagne", "Cocktail", "Shots with liquor", "Coca cola", "Water in glass", "Don't drink."};
         Scanner sc = new Scanner(System.in);
-        System.out.println("Welcome.");
+
+        System.out.println("Welcome in simulator NightAtClub.");
         System.out.println("Enter your name:");
         String name = sc.nextLine();
         System.out.println("Your name is :" + name);
@@ -155,8 +156,8 @@ public class ClubFaceControl {
         }
 
         int specialDiscountTicket = 1;
-
-        System.out.println("Now you have" + " " + specialDiscountTicket + " " + "special discount ticket");
+        System.out.println(" ");
+        System.out.println("Now you have" + " " + specialDiscountTicket + " " + "special discount ticket.");
         System.out.println(" ");
         System.out.println("Do you want to tell something?");
         System.out.println("You can tell:");
@@ -191,221 +192,247 @@ public class ClubFaceControl {
                 System.out.println("You come up to the bar, and sit at the bar.");
                 System.out.println(" ");
                 System.out.println("After a while , the barman comes up to you and asks.");
-                System.out.println("Barman : What you like to drink ?");
-                System.out.println("Tell what you like:");
-                System.out.println("1 - Whiskey");
-                System.out.println("2 - Vodka");
-                System.out.println("3 - Cognac");
-                System.out.println("4 - Champagne");
-                System.out.println("5 - Cocktail with discount (if you have a ticket)");
-                System.out.println("6 - Shots with liquor");
-                System.out.println("7 - Coca cola");
-                System.out.println("8 - Water in glass");
-                System.out.println("9 - Don't drink.");
+                System.out.println("Barman : Hello mister, today we have special discount on cocktails. And this is our drink cart.");
+                System.out.println("Call me when you choose something.");
+                System.out.println("You : Okay, thanks.");
+                System.out.println("1 - Open drink cart.");
+                System.out.println("2 - Don't open drink cart.");
 
-
-                int drinkChoice = sc.nextInt();
-                if (drinks[drinkChoice] == drinks[1]) {
-                    System.out.println("Barman:" + " " + drinks[drinkChoice] + " " + "tonight 1000. Would you like it?");
-                    System.out.println("1 - Yes.");
-                    System.out.println("2 - No.");
-                    int answerBarmen1 = sc.nextInt();
-                    switch (answerBarmen1) {
-                        case 1:
-                            System.out.println("Barman : Okay , this is your whiskey.");
-                            cash = cash - 1000;
-                            System.out.println("Your wallet :" + cash);
-                            break;
-                        case 2:
-                            System.out.println("Barman: Okay, anything else?");
-                            break;
+                int choice4 = sc.nextInt();
+                while (!(drinks[choice4] == drinks[2])) {
+                    System.out.println("You have :" + " " + specialDiscountTicket + " " + "discount ticket");
+                    System.out.println("*Drinks cart*");
+                    System.out.println("1 - Whiskey");
+                    System.out.println("2 - Vodka");
+                    System.out.println("3 - Cognac");
+                    System.out.println("4 - Champagne");
+                    System.out.println("5 - Cocktail (1 for free if you have a discount ticket)");
+                    System.out.println("6 - Shots with liquor");
+                    System.out.println("7 - Coca cola");
+                    System.out.println("8 - Water in glass");
+                    System.out.println("9 - Don't drink.");
+                    int drinkChoice = sc.nextInt();
+                    if (drinks[drinkChoice] == drinks[1]) {
+                        System.out.println("Barman:" + " " + drinks[drinkChoice] + " " + "tonight 1000. Would you like it?");
+                        System.out.println("1 - Yes.");
+                        System.out.println("2 - No.");
+                        int answerBarmen1 = sc.nextInt();
+                        switch (answerBarmen1) {
+                            case 1:
+                                System.out.println("Barman : Okay , this is your whiskey.");
+                                cash = cash - 1000;
+                                System.out.println("Your wallet :" + cash);
+                                break;
+                            case 2:
+                                System.out.println("Barman: Okay, anything else?");
+                                break;
+                        }
+                    } else if (drinks[drinkChoice] == drinks[2]) {
+                        System.out.println("Barman:" + " " + drinks[drinkChoice] + " " + "tonight 500. Would you like it?");
+                        System.out.println("1-Yes.");
+                        System.out.println("2-No.");
+                        int answerBarmen1 = sc.nextInt();
+                        switch (answerBarmen1) {
+                            case 1:
+                                System.out.println("Barman : Okay , this is your vodka.");
+                                cash = cash - 500;
+                                System.out.println("Your wallet :" + cash);
+                                break;
+                            case 2:
+                                System.out.println("Barman: Okay, anything else?");
+                                break;
+                        }
+                    } else if (drinks[drinkChoice] == drinks[3]) {
+                        System.out.println("Barman:" + " " + drinks[drinkChoice] + " " + "tonight 650. Would you like it?");
+                        System.out.println("1 - Yes.");
+                        System.out.println("2 - No.");
+                        int answerBarmen1 = sc.nextInt();
+                        switch (answerBarmen1) {
+                            case 1:
+                                System.out.println("Barman : Okay , this is your cognac.");
+                                cash = cash - 650;
+                                System.out.println("Your wallet :" + cash);
+                                break;
+                            case 2:
+                                System.out.println("Barman: Okay, anything else?");
+                                break;
+                        }
+                    } else if (drinks[drinkChoice] == drinks[4]) {
+                        System.out.println("Barman:" + " " + drinks[drinkChoice] + " " + "tonight 750. Would you like it?");
+                        System.out.println("1 - Yes.");
+                        System.out.println("2 - No.");
+                        int answerBarmen1 = sc.nextInt();
+                        switch (answerBarmen1) {
+                            case 1:
+                                System.out.println("Barman : Okay , this is your champagne.");
+                                cash = cash - 750;
+                                System.out.println("Your wallet :" + cash);
+                                break;
+                            case 2:
+                                System.out.println("Barman: Okay, anything else?");
+                                break;
+                        }
+                    } else if (drinks[drinkChoice] == drinks[5]) {
+                        System.out.println("Barman: Tonight you can take 1 for free, if you have discount ticket. Do you have it?");
+                        System.out.println("You have:" + " " + specialDiscountTicket);
+                        System.out.println("1 - Yes I have it.");
+                        System.out.println("2 - No I haven't.");
+                        int answerAboutDiscountTicket = sc.nextInt();
+                        switch (answerAboutDiscountTicket) {
+                            case 1:
+                                if (specialDiscountTicket>0) {
+                                    specialDiscountTicket = specialDiscountTicket - 1;
+                                    System.out.println("Now you have:" + " " + specialDiscountTicket + " " + "discount ticket.");
+                                    System.out.println("Barman: Anything else?");
+                                } else {
+                                    System.out.println("And where is it?");
+                                    System.out.println("Okay. Do you want it  anyway. Tonight it 400?");
+                                    System.out.println("1 - Yes.");
+                                    System.out.println("2 - No.");
+                                    int answerAboutCocktail = sc.nextInt();
+                                    switch (answerAboutCocktail) {
+                                        case 1:
+                                            System.out.println("Barman: Okay , this is your cocktail.");
+                                            cash = cash - 400;
+                                            System.out.println("Your wallet :" + cash);
+                                            break;
+                                        case 2:
+                                            System.out.println("Okay. Anything else?");
+                                            break;
+                                    }
+                                }
+                                break;
+                            case 2:
+                                System.out.println("Okay. Do you want it  anyway. Tonight it 400?");
+                                System.out.println("1 - Yes.");
+                                System.out.println("2 - No.");
+                                int answerAboutCocktail = sc.nextInt();
+                                switch (answerAboutCocktail) {
+                                    case 1:
+                                        System.out.println("Barman: Okay , this is your cocktail.");
+                                        cash = cash - 400;
+                                        System.out.println("Your wallet :" + cash);
+                                        break;
+                                    case 2:
+                                        System.out.println("Okay. Anything else?");
+                                        break;
+                                }
+                        }
+                    } else if (drinks[drinkChoice] == drinks[6]) {
+                        System.out.println("Barman:" + " " + drinks[drinkChoice] + " " + "tonight 1200. Would you like it?");
+                        System.out.println("1 - Yes.");
+                        System.out.println("2 - No.");
+                        int answerBarmen1 = sc.nextInt();
+                        switch (answerBarmen1) {
+                            case 1:
+                                System.out.println("Barman : Okay , this is your shots.");
+                                cash = cash - 1200;
+                                System.out.println("Your wallet :" + cash);
+                                break;
+                            case 2:
+                                System.out.println("Barman: Okay, anything else?");
+                                break;
+                        }
+                    } else if (drinks[drinkChoice] == drinks[7]) {
+                        System.out.println("Barman:" + " " + drinks[drinkChoice] + " " + "tonight 200. Would you like it?");
+                        System.out.println("1 - Yes.");
+                        System.out.println("2 - No.");
+                        int answerBarmen1 = sc.nextInt();
+                        switch (answerBarmen1) {
+                            case 1:
+                                System.out.println("Barman : Okay , this is your cola.");
+                                cash = cash - 200;
+                                System.out.println("Your wallet :" + cash);
+                                break;
+                            case 2:
+                                System.out.println("Barman: Okay, anything else?");
+                                break;
+                        }
+                    } else if (drinks[drinkChoice] == drinks[8]) {
+                        System.out.println("Barman:" + " " + drinks[drinkChoice] + " " + "tonight 250. Would you like it?");
+                        System.out.println("1 - Yes.");
+                        System.out.println("2 - No.");
+                        int answerBarmen1 = sc.nextInt();
+                        switch (answerBarmen1) {
+                            case 1:
+                                System.out.println("Barman : Okay , this is your water in glass.");
+                                cash = cash - 250;
+                                System.out.println("Your wallet :" + cash);
+                                break;
+                            case 2:
+                                System.out.println("Barman: Okay, anything else?");
+                                break;
+                        }
+                    } else if (drinks[drinkChoice] == drinks[9]) {
+                        System.out.println("Barman: Ok, well call me if you suddenly want something");
+                        break;
                     }
-                } else if (drinks[drinkChoice] == drinks[2]) {
-                    System.out.println("Barman:" + " " + drinks[drinkChoice] + " " + "tonight 500. Would you like it?");
-                    System.out.println("1-Yes.");
-                    System.out.println("2-No.");
-                    int answerBarmen1 = sc.nextInt();
-                    switch (answerBarmen1) {
-                        case 1:
-                            System.out.println("Barman : Okay , this is your vodka.");
-                            cash = cash - 500;
-                            System.out.println("Your wallet :" + cash);
-                            break;
-                        case 2:
-                            System.out.println("Barman: Okay, anything else?");
-                            break;
-                    }
-                } else if (drinks[drinkChoice] == drinks[3]) {
-                    System.out.println("Barman:" + " " + drinks[drinkChoice] + " " + "tonight 650. Would you like it?");
-                    System.out.println("1 - Yes.");
-                    System.out.println("2 - No.");
-                    int answerBarmen1 = sc.nextInt();
-                    switch (answerBarmen1) {
-                        case 1:
-                            System.out.println("Barman : Okay , this is your cognac.");
-                            cash = cash - 650;
-                            System.out.println("Your wallet :" + cash);
-                            break;
-                        case 2:
-                            System.out.println("Barman: Okay, anything else?");
-                            break;
-                    }
-                } else if (drinks[drinkChoice] == drinks[4]) {
-                    System.out.println("Barman:" + " " + drinks[drinkChoice] + " " + "tonight 750. Would you like it?");
-                    System.out.println("1 - Yes.");
-                    System.out.println("2 - No.");
-                    int answerBarmen1 = sc.nextInt();
-                    switch (answerBarmen1) {
-                        case 1:
-                            System.out.println("Barman : Okay , this is your champagne.");
-                            cash = cash - 750;
-                            System.out.println("Your wallet :" + cash);
-                            break;
-                        case 2:
-                            System.out.println("Barman: Okay, anything else?");
-                            break;
-                    }
-                } else if (drinks[drinkChoice] == drinks[5]) {
-                    System.out.println("Barman:" + " " + drinks[drinkChoice] + " " + "tonight you can take it free, with discount ticket. Do you have it?");
-                    System.out.println("You have:" + " " + specialDiscountTicket);
-                    System.out.println("1 - Yes I have it.");
-                    System.out.println("2 - No I haven't.");
-                    int answerAboutDiscountTicket = sc.nextInt();
-                    switch (answerAboutDiscountTicket) {
-                        case 1:
-                            System.out.println("Barman: Okay, this is your cocktail");
-                            System.out.println("Now you have 0 discount ticket.");
-                            System.out.println("Barman: Anything else?");
-                            break;
-                        case 2:
-                            System.out.println("Okay. Do you want it  anyway. Tonight it 400?");
-                            System.out.println("1 - Yes.");
-                            System.out.println("2 - No.");
-                            int answerAboutCocktail = sc.nextInt();
-                            switch (answerAboutCocktail) {
-                                case 1:
-                                    System.out.println("Barman: Okay , this is your cocktail.");
-                                    cash = cash - 400;
-                                    break;
-                                case 2:
-                                    System.out.println("Okay. Anything else?");
-                                    break;
-                            }
-                    }
-                } else if (drinks[drinkChoice] == drinks[6]) {
-                    System.out.println("Barman:" + " " + drinks[drinkChoice] + " " + "tonight 1200. Would you like it?");
-                    System.out.println("1 - Yes.");
-                    System.out.println("2 - No.");
-                    int answerBarmen1 = sc.nextInt();
-                    switch (answerBarmen1) {
-                        case 1:
-                            System.out.println("Barman : Okay , this is your shots.");
-                            cash = cash - 1200;
-                            System.out.println("Your wallet :" + cash);
-                            break;
-                        case 2:
-                            System.out.println("Barman: Okay, anything else?");
-                            break;
-                    }
-                } else if (drinks[drinkChoice] == drinks[7]) {
-                    System.out.println("Barman:" + " " + drinks[drinkChoice] + " " + "tonight 200. Would you like it?");
-                    System.out.println("1 - Yes.");
-                    System.out.println("2 - No.");
-                    int answerBarmen1 = sc.nextInt();
-                    switch (answerBarmen1) {
-                        case 1:
-                            System.out.println("Barman : Okay , this is your cola.");
-                            cash = cash - 200;
-                            System.out.println("Your wallet :" + cash);
-                            break;
-                        case 2:
-                            System.out.println("Barman: Okay, anything else?");
-                            break;
-                    }
-                } else if (drinks[drinkChoice] == drinks[8]) {
-                    System.out.println("Barman:" + " " + drinks[drinkChoice] + " " + "tonight 250. Would you like it?");
-                    System.out.println("1 - Yes.");
-                    System.out.println("2 - No.");
-                    int answerBarmen1 = sc.nextInt();
-                    switch (answerBarmen1) {
-                        case 1:
-                            System.out.println("Barman : Okay , this is your water in glass.");
-                            cash = cash - 250;
-                            System.out.println("Your wallet :" + cash);
-                            break;
-                        case 2:
-                            System.out.println("Barman: Okay, anything else?");
-                            break;
-                    }
-                } else if (drinks[drinkChoice] == drinks[9]) {
-                    System.out.println("Barman: Ok, well call me if you suddenly want something");
-                    break;
                 }
-        }
-        System.out.println("Barmen leaves to serve other guests.");
-        System.out.println(" ");
-        System.out.println("For a while you stand and watch the people in the club.");
-        System.out.println("You are also increasingly annoyed by those jerks who drink vodka at a table in the corner of the club, and sometimes angry watching on you.");
-        System.out.println(" ");
-        System.out.println("Then you notice 3 beautiful girls(guys).");
-        System.out.println(" ");
-        System.out.println("First: dancing in a center of a club.");
-        System.out.println(" ");
-        System.out.println("Second: sitting and drinking a cocktail in front of a table with those jerks.");
-        System.out.println(" ");
-        System.out.println("Third: sitting at the other end of the bar.");
-        System.out.println(" ");
-        System.out.println("What are you going to do?");
-        System.out.println("1 - Go up to the jerks and ask : Why they're always watching.");
-        System.out.println("2 - Сome up to the first girl(guy).");
-        System.out.println("3 - Сome up to the second girl(guy).");
-        System.out.println("4 - Сome up to the third girl(guy).");
-        int choice4 = sc.nextInt();
-        switch (choice4) {
-            case 1 :
-                System.out.println("You go up to the jerks and asks:");
-                System.out.println("What the fuck are you always looking at me jerks?");
+                System.out.println("Barmen leaves to serve other guests.");
                 System.out.println(" ");
-                System.out.println("Jerks don't like your tone");
-                System.out.println("...");
-                System.out.println("A fight begins.");
-                System.out.println("Before the arrival of the guards, you manage to get in the face three times.");
-                System.out.println("And once you manage to hit one of the jerks, who is now lay down in a KO.");
+                System.out.println("For a while you stand and watch the people in the club.");
+                System.out.println("You are also increasingly annoyed by those jerks who drink vodka at a table in the corner of the club, and sometimes angry watching on you.");
                 System.out.println(" ");
-                System.out.println("After all, the guards throw the jerks out of the club. And ask you.");
-                System.out.println("How are you? Are you ok?");
-                System.out.println("You :");
-                System.out.println("1 - I'm fine guys thanks. Thanks for help.");
-                System.out.println("2 - Good job guys. But where have you been for so long!? What are you doing here!?");
-                System.out.println("3 - Thanks guys take this. You gives them 2000.");
+                System.out.println("Then you notice 3 beautiful girls(guys).");
+                System.out.println(" ");
+                System.out.println("First: dancing in a center of a club.");
+                System.out.println(" ");
+                System.out.println("Second: sitting and drinking a cocktail in front of a table with those jerks.");
+                System.out.println(" ");
+                System.out.println("Third: sitting at the other end of the bar.");
+                System.out.println(" ");
+                System.out.println("What are you going to do?");
+                System.out.println("1 - Go up to the jerks and ask : Why they're always watching.");
+                System.out.println("2 - Сome up to the first girl(guy).");
+                System.out.println("3 - Сome up to the second girl(guy).");
+                System.out.println("4 - Сome up to the third girl(guy).");
                 int choice5 = sc.nextInt();
                 switch (choice5) {
-                    case 1 :
-                        System.out.println("Go inside. And don't worry about it.");
-                        break;
-                    case 2 :
-                        System.out.println("Guards throw out you too.");
-                        return;
-                    case 3 :
-                        System.out.println("Guards: Thanks, dude, but you can't go inside.");
-                        System.out.println("Give us some more money, and then we'll think about letting you in.");
-                        System.out.println("How much you think they need to let you in ?");
-                        System.out.println("Your wallet: " + " " + cash);
-                        int moneyGuardsWant = 5000;
-                        int yourMoney = sc.nextInt();
-                        if (yourMoney < 5000) {
-                            System.out.println("Guards won't let you in anymore.");
-                        } else {
-                            System.out.println("Guards laugh among themselves and let you in.");
+                    case 1:
+                        System.out.println("You go up to the jerks and asks:");
+                        System.out.println("What the fuck are you always looking at me jerks?");
+                        System.out.println(" ");
+                        System.out.println("Jerks don't like your tone");
+                        System.out.println("...");
+                        System.out.println("A fight begins.");
+                        System.out.println("Before the arrival of the guards, you manage to get in the face three times.");
+                        System.out.println("And once you manage to hit one of the jerks, who is now lay down in a KO.");
+                        System.out.println(" ");
+                        System.out.println("After all, the guards throw the jerks out of the club. And ask you.");
+                        System.out.println("How are you? Are you ok?");
+                        System.out.println("You :");
+                        System.out.println("1 - I'm fine guys thanks. Thanks for help.");
+                        System.out.println("2 - Good job guys. But where have you been for so long!? What are you doing here!?");
+                        System.out.println("3 - Thanks guys take this. You gives them 2000.");
+                        int choice6 = sc.nextInt();
+                        switch (choice6) {
+                            case 1:
+                                System.out.println("Go inside. And don't worry about it.");
+                                break;
+                            case 2:
+                                System.out.println("Guards throw out you too.");
+                                return;
+                            case 3:
+                                System.out.println("Guards: Thanks, dude, but you can't go inside.");
+                                System.out.println("Give us some more money, and then we'll think about letting you in.");
+                                System.out.println("How much you think they need to let you in ?");
+                                System.out.println("Your wallet: " + " " + cash);
+                                int moneyGuardsWant = 5000;
+                                int yourMoney = sc.nextInt();
+                                if (yourMoney < 5000) {
+                                    System.out.println("Guards won't let you in anymore.");
+                                } else {
+                                    System.out.println("Guards laugh among themselves and let you in.");
+                                }
+                                break;
                         }
-                        break;
+
+                        // case 2 :
+
                 }
 
-           // case 2 :
 
         }
-
-
     }
 }
 
