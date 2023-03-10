@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ClubFaceControl {
     public static void main(String[] args) {
 
-        String[] drinks = {" ", "Whiskey", "Vodka", "Cognac", "Champagne", "Cocktail", "Shots with liquor", "Coca cola", "Water in glass", "Don't drink."};
+        String[] drinks = {" ", "Whiskey", "Vodka", "Cognac", "Champagne", "Cocktail", "Shots with liquor", "Coca cola", "Water in glass", "Don't drink.", "Order drink for Blonde"};
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Welcome in simulator NightAtClub.");
@@ -185,7 +185,7 @@ public class ClubFaceControl {
         System.out.println("Also you notice a campaign of some jerks, that you didn't like.");
         System.out.println("You can make a choice: ");
         System.out.println("1 - Go to the bar.");
-        System.out.println("2 - Go to the dance floor.");
+        System.out.println("2 - Stand and look around.");
         int choice3 = sc.nextInt();
         switch (choice3) {
             case 1:
@@ -370,10 +370,11 @@ public class ClubFaceControl {
                 }
                 System.out.println("Barmen leaves to serve other guests.");
                 System.out.println(" ");
+        }
                 System.out.println("For a while you stand and watch the people in the club.");
                 System.out.println("You are also increasingly annoyed by those jerks who drink vodka at a table in the corner of the club, and sometimes angry watching on you.");
                 System.out.println(" ");
-                System.out.println("Then you notice 3 beautiful girls(guys).");
+                System.out.println("Then you notice three beautiful girls that you liked.");
                 System.out.println(" ");
                 System.out.println("First: dancing in a center of a club.");
                 System.out.println(" ");
@@ -383,9 +384,9 @@ public class ClubFaceControl {
                 System.out.println(" ");
                 System.out.println("What are you going to do?");
                 System.out.println("1 - Go up to the jerks and ask : Why they're always watching.");
-                System.out.println("2 - Сome up to the first girl(guy).");
-                System.out.println("3 - Сome up to the second girl(guy).");
-                System.out.println("4 - Сome up to the third girl(guy).");
+                System.out.println("2 - Сome up to the first girl.");
+                System.out.println("3 - Сome up to the second girl.");
+                System.out.println("4 - Сome up to the third girl.");
                 int choice5 = sc.nextInt();
                 switch (choice5) {
                     case 1:
@@ -429,9 +430,9 @@ public class ClubFaceControl {
                         }
 
                     case 2:
-                        System.out.println("You come up to a girl and compliment her on how she :");
+                        System.out.println("You come up to a girl and compliment her :");
                         System.out.println("Choose compliment:");
-                        System.out.println("1 - You're an amazing dancer. You know.");
+                        System.out.println("1 - You're an amazing dancer. Do you know.");
                         System.out.println("2 - You have a good body my girl.");
                         System.out.println("3 - I would still practice dancing if I were you.");
                         int choice7 = sc.nextInt();
@@ -439,16 +440,17 @@ public class ClubFaceControl {
                             case 1:
                                 System.out.println("The blonde girl turns and says, smiling :");
                                 System.out.println("You too I see.");
-                                System.out.println("You dance, then she suggests moving to the bar to talk.");
                                 System.out.println(" ");
-                                System.out.println("Blond: You good dancer, nice guy. Do you drink?");
+                                System.out.println("You dance together, then she suggests moving to the bar to talk.");
+                                System.out.println(" ");
+                                System.out.println("Blond: You good dancer nice guy, and I like how you smile. Do you drink?");
                                 System.out.println("You:");
                                 System.out.println("1 - Yes");
                                 System.out.println("2 - No");
                                 int choice8 = sc.nextInt();
                                 switch (choice8) {
                                     case 1:
-                                        System.out.println("Blond: That's good.Me too. Let's call barman and order some drinks.");
+                                        System.out.println("Blond: That's good. Me too. Let's call barman and order some drinks.");
                                         System.out.println("I want to drink their cocktail, I like it.");
                                         break;
                                     case 2:
@@ -457,8 +459,8 @@ public class ClubFaceControl {
                                 System.out.println(" ");
                                 System.out.println("Barman comes up. And ask : Do you ready to order something?");
                                 System.out.println(" ");
-                                System.out.println("1 - Yes we ready");
-                                System.out.println("2 - No we don't");
+                                System.out.println("1 - Yes we ready.");
+                                System.out.println("2 - No we don't.");
                                 int choice9 = sc.nextInt();
                                 while (!(drinks[choice9] == drinks[2])) {
                                     System.out.println("You have :" + " " + specialDiscountTicket + " " + "discount ticket");
@@ -661,34 +663,38 @@ public class ClubFaceControl {
                                                 }
                                                 break;
                                             case 2:
-                                                System.out.println("Okay. Do you want it  anyway. Tonight it 400?");
+                                                System.out.println("Okay. Do you want it anyway. Tonight it 400?");
                                                 System.out.println("1 - Yes.");
                                                 System.out.println("2 - No.");
                                                 int answerAboutCocktail = sc.nextInt();
                                                 switch (answerAboutCocktail) {
                                                     case 1:
-                                                        System.out.println("Barman: Okay , this is your cocktail.");
+                                                        System.out.println("Barman: Okay, this is your cocktail.");
                                                         cash = cash - 400;
                                                         System.out.println("Your wallet :" + cash);
                                                         System.out.println("Blonde: Thank you.");
+                                                        System.out.println("She likes you.");
                                                         break;
                                                     case 2:
                                                         System.out.println("Okay. Anything else?");
                                                         break;
-                                                }
+                                                }break;
                                         }
                                     }
-
-
                                 }
-
+                            case 2:
+                                System.out.println("Blonde: Get away from me or I'll call my boyfriend!");
+                                break;
+                            case 3:
+                                System.out.println("Blonde: Go away. And practice joking.");
+                                break;
                         }
+
 
 
                 }
         }
     }
-}
 
 
 
