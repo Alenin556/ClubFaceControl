@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d744436f-6cbd-478c-9f87-3751ef39edec" name="Changes" comment="update 2.2 add come up to first girl at the dance floor">
+    <list default="true" id="d744436f-6cbd-478c-9f87-3751ef39edec" name="Changes" comment="update 2.3 fix barChoice when you drink with first girl">
+      <change afterPath="$PROJECT_DIR$/src/main/java/FightWithJerks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FirstGirl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/switchConstruction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ClubFaceControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClubFaceControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ClubFaceControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NightAtClub.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +74,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClubFaceControl">
+  <component name="RunManager" selected="Application.OnceAtNightAtClub">
     <configuration name="Bar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bar" />
       <module name="ClubFaceControl.main" />
@@ -79,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClubFaceControl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClubFaceControl" />
+    <configuration name="OnceAtNightAtClub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OnceAtNightAtClub" />
       <module name="ClubFaceControl.main" />
       <extension name="coverage">
         <pattern>
@@ -121,7 +124,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Bar" />
-        <item itemvalue="Application.ClubFaceControl" />
+        <item itemvalue="Application.OnceAtNightAtClub" />
         <item itemvalue="Application.Thermometer" />
       </list>
     </recent_temporary>
@@ -184,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678447511826</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update 2.3 fix barChoice when you drink with first girl">
+      <created>1678450139968</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678450139968</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,7 +214,8 @@
     <MESSAGE value="update to simulator NightAtClub" />
     <MESSAGE value="update 2.1 fix barman and cocktail choice" />
     <MESSAGE value="update 2.2 add come up to first girl at the dance floor" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 2.2 add come up to first girl at the dance floor" />
+    <MESSAGE value="update 2.3 fix barChoice when you drink with first girl" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 2.3 fix barChoice when you drink with first girl" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
