@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class HowToGetToTheClub {
     public static void main(String[] args) {
-        System.out.println();
 
         String[] drinks = {" ", "Whiskey", "Vodka", "Cognac", "Champagne", "Cocktail", "Shots with liquor", "Coca cola", "Water in glass", "Don't drink.", "Order drink for Blonde"};
         Scanner sc = new Scanner(System.in);
