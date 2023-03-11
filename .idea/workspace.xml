@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d744436f-6cbd-478c-9f87-3751ef39edec" name="Changes" comment="update 2.6 second girl">
-      <change afterPath="$PROJECT_DIR$/src/main/java/actions/HowToGetToTheClub.java" afterDir="false" />
+    <list default="true" id="d744436f-6cbd-478c-9f87-3751ef39edec" name="Changes" comment="update 2.6 update how to get to the bar">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SimulatorWithMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/actions/Beginning.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/OnceAtNightAtClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnceAtNightAtClub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/actions/BarWithFirstGirl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/HowToGetToTheClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/HowToGetToTheClub.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +47,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -73,7 +75,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OnceAtNightAtClub">
+  <component name="RunManager" selected="Application.SimulatorWithMethods">
     <configuration name="Bar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="actions.Bar" />
       <module name="ClubFaceControl.main" />
@@ -99,10 +101,17 @@
       <module name="ClubFaceControl.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="actions.*" />
+          <option name="PATTERN" value="dataHelp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimulatorWithMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimulatorWithMethods" />
+      <module name="ClubFaceControl.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,6 +144,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimulatorWithMethods" />
         <item itemvalue="Application.SecondGirl" />
         <item itemvalue="Application.Bar" />
         <item itemvalue="Application.OnceAtNightAtClub" />
@@ -242,7 +252,49 @@
       <option name="project" value="LOCAL" />
       <updated>1678512700381</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update 2.6 update how to get to the bar">
+      <created>1678530194141</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678530194141</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update 2.6 update how to get to the bar">
+      <created>1678530200716</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678530200716</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update 2.6 update how to get to the bar">
+      <created>1678530212895</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678530212895</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update 2.6 update how to get to the bar">
+      <created>1678530232167</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678530232167</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update 2.6 update how to get to the bar">
+      <created>1678530320823</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1678530320823</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update 2.6 update how to get to the bar">
+      <created>1678530369503</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1678530369503</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,7 +320,8 @@
     <MESSAGE value="update 2.5 fix bar.What happened if you don't have enough money." />
     <MESSAGE value="update 2.6 fix bar and wallet" />
     <MESSAGE value="update 2.6 second girl" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 2.6 second girl" />
+    <MESSAGE value="update 2.6 update how to get to the bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 2.6 update how to get to the bar" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

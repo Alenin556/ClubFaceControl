@@ -17,9 +17,6 @@ public class OnceAtNightAtClub {
         System.out.println("Today was a hard working day. Your boss was angry and you will do a lot of work.");
         System.out.println("After work you become at home , you undress, pour yourself some kind of drink , sit on the sofa and think :");
         System.out.println("I think I should go to the club today to relax and chill.");
-        System.out.println(" ");
-        System.out.println("How much cash should I take tonight?");
-        System.out.println(" ");
 
         System.out.println("Now you can enter amount of money : ");
         System.out.println("1 - 5000");
@@ -152,6 +149,7 @@ public class OnceAtNightAtClub {
         System.out.println("4 - My name is Britney Spears.");
         System.out.println("5 - My name is Your Daddy(Mommy).");
         System.out.println("6 - You can call me how you want.");
+        int specialDiscountTicket = 0;
         int choice = sc.nextInt();
         switch (choice) {
             case 1:
@@ -191,6 +189,7 @@ public class OnceAtNightAtClub {
                 System.out.println("How old are you?");
                 int ageOfTeenager = sc.nextInt();
                 if (ageOfTeenager >= 18) {
+                    specialDiscountTicket = specialDiscountTicket + 1;
                     System.out.println("Well... you can come in." + " " + name);
                     System.out.println("This is special discount ticket for bar.");
                     System.out.println("You must to go there, to drink ours bests cocktails. Tonight they have best price of all time!");
@@ -213,14 +212,18 @@ public class OnceAtNightAtClub {
             case 3:
                 System.out.println("Guards : and what you can offer?");
                 System.out.println("You give them 1500");
+                if (cash>=1500){
                 cash = cash - 1500;
                 System.out.println("Your wallet :" + cash);
                 System.out.println("Guards : OK. We will make a deal.");
-                System.out.println("Take this. This is special discount ticket for bar.");
+                } else {
+                    System.out.println("Guards : We won't make a deal.");
+                    System.out.println("You didn't pass.");
+                    System.out.println("Try again.");
+                }
                 break;
         }
 
-        int specialDiscountTicket = 1;
         System.out.println(" ");
         System.out.println("Now you have" + " " + specialDiscountTicket + " " + "special discount ticket.");
         System.out.println(" ");
@@ -233,7 +236,7 @@ public class OnceAtNightAtClub {
         switch (choice2) {
             case 1:
                 System.out.println("Now you must run fast!");
-                System.out.println("You didn't pass.");
+                System.out.println("Guards trow you out the club.");
                 System.out.println("Try again.");
                 return;
             case 2:
@@ -246,7 +249,7 @@ public class OnceAtNightAtClub {
 
         System.out.println("You enter the club.");
         System.out.println("In the club plays music that you like.");
-        System.out.println("There are a lot of beautiful people in the club, there are a lot of beautiful men and women.");
+        System.out.println("There are a lot of beautiful people in the club, men and women.");
         System.out.println("Also you notice a campaign of some jerks, that you didn't like.");
         System.out.println("You can make a choice: ");
         System.out.println("1 - Go to the bar.");
@@ -486,9 +489,9 @@ public class OnceAtNightAtClub {
         System.out.println("What are you going to do?");
         System.out.println("1 - Go up to the jerks and ask : Why they're always watching.");
         System.out.println("2 - Сome up to the first girl.");
-        System.out.println("3 - Сome up to the second girl.");
-        System.out.println("4 - Сome up to the third girl.");
-        System.out.println("5 - Go home.");
+        System.out.println("3 - Сome up to the second girl.- Not available");
+        System.out.println("4 - Сome up to the third girl.- Not available");
+        System.out.println("5 - Go home.- Not available");
         int choice5 = sc.nextInt();
         switch (choice5) {
             case 1:
