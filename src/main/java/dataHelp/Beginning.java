@@ -3,16 +3,6 @@ package dataHelp;
 import java.util.Scanner;
 
 public class Beginning {
-    public static void main(String[] args) {
-    }
-
-    Scanner sc = new Scanner(System.in);
-    String name = sc.nextLine();
-
-    public String getName() {
-        return name;
-    }
-
 
     public static void beginning() {
         Scanner sc = new Scanner(System.in);
@@ -20,7 +10,8 @@ public class Beginning {
         System.out.println("Welcome in simulator :");
         System.out.println("************* Once at night at club *************");
         System.out.println("Enter your name:");
-        System.out.println("Your name is :" + );
+        String name = sc.nextLine();
+        System.out.println("Your name is :" + name);
         System.out.println(" ");
         System.out.println("The story begins.");
         System.out.println(" ");
@@ -67,5 +58,4 @@ public class Beginning {
                 return;
         }
     }
-
 }

@@ -39,10 +39,11 @@ public class FirstGirl {
                         switch (choice13) {
                             case 1:
                                 System.out.println("Blond: That's good. Me too. Let's call barman and order some drinks.");
-                                System.out.println("I want to drink their cocktail, I like it.");
+                                System.out.println("Blond: I want to drink their cocktail, I like it.");
                                 break;
                             case 2:
-                                System.out.println("Okay. Then I drink cocktail alone, if you don't mind.");
+                                System.out.println("Blond: I want to drink their cocktail, I like it.");
+                                System.out.println("Blond: Okay. Then I drink cocktail alone, if you don't mind.");
                         }
                         System.out.println(" ");
                         System.out.println("Barman comes up. And ask : Do you ready to order something?");

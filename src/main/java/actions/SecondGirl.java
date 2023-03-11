@@ -39,16 +39,16 @@ public class SecondGirl {
                 System.out.println("1 - Why is such a beautiful girl drinking alone?");
                 System.out.println("2 - Want to drink with me and go somewhere?");
                 System.out.println("3 - Don't spoil everyone's mood with your views, please?");
-                int choice2 = sc.nextInt();
-                switch (choice2) {
+                int choice15 = sc.nextInt();
+                switch (choice15) {
                     case 1:
                         System.out.println("Then redhead girl watch on you says, smiling :");
                         System.out.println("You think, that I'm beautiful?");
                         System.out.println("You:");
                         System.out.println("1 - Yes");
                         System.out.println("2 - No");
-                        int choice3 = sc.nextInt();
-                        switch (choice3) {
+                        int choice16 = sc.nextInt();
+                        switch (choice16) {
                             case 1:
                                 System.out.println("Redhead: Thanks. My name is Angela, and whats your name?");
                                 System.out.println("1 - My name is " + name);
@@ -60,17 +60,19 @@ public class SecondGirl {
                                 switch (choice4) {
                                     case 1:
                                         System.out.println("You : My name is" + " " + name);
-                                        System.out.println("Angela: Nice to meet you" + " " + name);
-                                        System.out.println("Angela: I like your suit. Do you drink?");
+                                        System.out.println("Angela : Nice to meet you" + " " + name);
+                                        System.out.println("Angela : I like your suit. Do you drink?");
                                         System.out.println("You:");
                                         System.out.println("1 - Yes");
                                         System.out.println("2 - No");
-                                        int choice5 = sc.nextInt();
-                                        switch (choice5) {
+                                        int choice18 = sc.nextInt();
+                                        switch (choice18) {
                                             case 1:
                                                 System.out.println("Angela : Let's call barman and order some drinks.");
+                                                System.out.println("Angela : I like their shots, I think they really tasty.");
                                                 break;
                                             case 2:
+                                                System.out.println("Angela : I like their shots, I think they really tasty.");
                                                 System.out.println("Okay. Then I drink shots alone, if you don't mind.");
                                         }
                                         break;

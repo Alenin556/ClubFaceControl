@@ -1,3 +1,5 @@
+package dataHelp;
+
 import dataHelp.Beginning;
 
 public class SimulatorWithMethods {
