@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d744436f-6cbd-478c-9f87-3751ef39edec" name="Changes" comment="update 2.6 fix bar and wallet">
-      <change afterPath="$PROJECT_DIR$/src/main/java/actions/SecondGirl.java" afterDir="false" />
+    <list default="true" id="d744436f-6cbd-478c-9f87-3751ef39edec" name="Changes" comment="update 2.6 second girl">
+      <change afterPath="$PROJECT_DIR$/src/main/java/actions/HowToGetToTheClub.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Bar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/Bar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BarWithFirstGirl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/BarWithFirstGirl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FightWithJerks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/FightWithJerks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstGirl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/FirstGirl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/switchConstruction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataHelp/switchConstruction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OnceAtNightAtClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnceAtNightAtClub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/BarWithFirstGirl.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +73,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SecondGirl">
+  <component name="RunManager" selected="Application.OnceAtNightAtClub">
     <configuration name="Bar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="actions.Bar" />
       <module name="ClubFaceControl.main" />
@@ -238,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678471008734</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update 2.6 second girl">
+      <created>1678512700381</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678512700381</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,7 +267,8 @@
     <MESSAGE value="update 2.4 fix bugs, added new choices" />
     <MESSAGE value="update 2.5 fix bar.What happened if you don't have enough money." />
     <MESSAGE value="update 2.6 fix bar and wallet" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 2.6 fix bar and wallet" />
+    <MESSAGE value="update 2.6 second girl" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 2.6 second girl" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
