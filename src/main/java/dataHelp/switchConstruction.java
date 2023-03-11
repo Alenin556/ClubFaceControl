@@ -1,3 +1,5 @@
+package dataHelp;
+
 import java.util.Scanner;
 
 public class switchConstruction {

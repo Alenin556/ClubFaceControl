@@ -1,3 +1,5 @@
+package actions;
+
 import java.util.Scanner;
 
 public class FirstGirl {
@@ -217,7 +219,7 @@ public class FirstGirl {
                                 System.out.println("Barman: Ok, well call me if you suddenly want something");
                                 break;
                             } else if (drinks[drinkChoice] == drinks[10]) {
-                                System.out.println("Barman: Tonight you can take 1 for free, if you have discount ticket. Do you have it?");
+                                System.out.println("Barman: If you want cocktail you can take 1 for free, if you have discount ticket. Do you have it?");
                                 System.out.println("You have:" + " " + specialDiscountTicket);
                                 System.out.println("1 - Yes I have it.");
                                 System.out.println("2 - No I haven't.");

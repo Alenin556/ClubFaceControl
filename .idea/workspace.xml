@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d744436f-6cbd-478c-9f87-3751ef39edec" name="Changes" comment="update 2.6 fix bar and wallet">
+      <change afterPath="$PROJECT_DIR$/src/main/java/actions/SecondGirl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OnceAtNightAtClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnceAtNightAtClub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/Bar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BarWithFirstGirl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/BarWithFirstGirl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FightWithJerks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/FightWithJerks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FirstGirl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/FirstGirl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/switchConstruction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataHelp/switchConstruction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +76,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OnceAtNightAtClub">
+  <component name="RunManager" selected="Application.SecondGirl">
     <configuration name="Bar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bar" />
+      <option name="MAIN_CLASS_NAME" value="actions.Bar" />
       <module name="ClubFaceControl.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,6 +90,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondGirl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="actions.SecondGirl" />
+      <module name="ClubFaceControl.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="actions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,6 +138,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SecondGirl" />
         <item itemvalue="Application.Bar" />
         <item itemvalue="Application.OnceAtNightAtClub" />
         <item itemvalue="Application.Thermometer" />
@@ -212,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678469593231</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update 2.6 fix bar and wallet">
+      <created>1678471008734</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678471008734</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
