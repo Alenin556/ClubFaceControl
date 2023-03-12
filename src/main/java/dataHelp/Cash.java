@@ -7,9 +7,11 @@ public class Cash {
         return cash;
     }
 
-    public void setCash(int cash) {
-        this.cash = cash;
+    public void setCash(int newCash) {
+        cash = newCash;
     }
+
+
 
 
 }

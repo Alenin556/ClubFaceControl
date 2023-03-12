@@ -7,18 +7,18 @@ public class HowToGetToClub {
 
     }
     public static void getToClubBy(int howToGetChoice) {
-        Cash cashClass = new Cash();
+        HowMuchCashYouWantToTake cash = new HowMuchCashYouWantToTake();
         Scanner sc = new Scanner(System.in);
         switch (howToGetChoice) {
             case 1:
-                System.out.println("You walk to the club. Your wallet :" + cashClass.getCash());
+                System.out.println("You walk to the club. Your wallet :" + cash.getCash());
                 break;
             case 2:
-                if (cashClass.getCash() >= 60) {
-                    cashClass.setCash(cashClass.getCash() - 60);
-                    System.out.println("You take the bus to the club. Your wallet :" + cashClass.getCash());
+                if (cash.getCash() >= 60) {
+                    cash.setCash(cash.getCash() - 60);
+                    System.out.println("You take the bus to the club. Your wallet :" + cash.getCash());
                 } else {
-                    System.out.println("Your wallet :" + cashClass.getCash());
+                    System.out.println("Your wallet :" + cash.getCash());
                     System.out.println("You can't take a bus.");
                     System.out.println(" ");
                     System.out.println("Try another:");
@@ -27,7 +27,7 @@ public class HowToGetToClub {
                     int another = sc.nextInt();
                     switch (another) {
                         case 1:
-                            System.out.println("You walk to the club. Your wallet :" + cashClass.getCash());
+                            System.out.println("You walk to the club. Your wallet :" + cash.getCash());
                             break;
                         case 2:
                             System.out.println("You stay at home tonight.");
@@ -36,11 +36,11 @@ public class HowToGetToClub {
                 }
                 break;
             case 3:
-                if (cashClass.getCash() >= 750) {
-                    cashClass.setCash(cashClass.getCash() - 750);
-                    System.out.println("You take a taxi to the club. Your wallet :" + cashClass.getCash());
+                if (cash.getCash() >= 750) {
+                    cash.setCash(cash.getCash() - 750);
+                    System.out.println("You take a taxi to the club. Your wallet :" + cash.getCash());
                 } else {
-                    System.out.println("Your wallet :" + cashClass.getCash());
+                    System.out.println("Your wallet :" + cash.getCash());
                     System.out.println("You can't take a taxi.");
                     System.out.println(" ");
                     System.out.println("Try another");
@@ -50,13 +50,14 @@ public class HowToGetToClub {
                     int another = sc.nextInt();
                     switch (another) {
                         case 1:
-                            System.out.println("You walk to the club. Your wallet :" + cashClass.getCash());
+                            System.out.println("You walk to the club. Your wallet :" + cash.getCash());
                             break;
                         case 2:
-                            if (cashClass.getCash() >= 0) {
-                                System.out.println("You take the bus to the club. Your wallet :" + cashClass.getCash());
+                            if (cash.getCash() >= 0) {
+                                cash.setCash(cash.getCash() - 60);
+                                System.out.println("You take the bus to the club. Your wallet :" + cash.getCash());
                             } else {
-                                System.out.println("Your wallet :" + cashClass.getCash());
+                                System.out.println("Your wallet :" + cash.getCash());
                                 System.out.println("You can't take a bus.");
                                 System.out.println(" ");
                                 System.out.println("Try another:");
@@ -65,7 +66,7 @@ public class HowToGetToClub {
                                 int another1 = sc.nextInt();
                                 switch (another1) {
                                     case 1:
-                                        System.out.println("You walk to the club. Your wallet :" + cashClass.getCash());
+                                        System.out.println("You walk to the club. Your wallet :" + cash.getCash());
                                         break;
                                     case 2:
                                         System.out.println("You stay at home tonight.");

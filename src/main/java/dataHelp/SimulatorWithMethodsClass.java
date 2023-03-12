@@ -30,8 +30,7 @@ public class SimulatorWithMethodsClass {
         System.out.println(" ");
         System.out.println("How do you want to get to the club?");
         System.out.println(" ");
-        Cash cashClass = new Cash();
-        System.out.println("Your wallet :" + cashClass.getCash());
+        System.out.println("Your wallet :" + cash.getCash());
         System.out.println("You can make a choice. Every choice will cost you money.");
         System.out.println("1 - Walk to the club - 0");
         System.out.println("2 - Take a bus - 60");
