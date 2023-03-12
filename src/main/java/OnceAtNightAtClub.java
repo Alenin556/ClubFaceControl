@@ -46,7 +46,7 @@ public class OnceAtNightAtClub {
                 System.out.println("You entered the wrong input. Try again.");
                 return;
         }
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         System.out.println("Now you leave your house..");
         System.out.println(" ");
         System.out.println("How do you want to get to the club ?");
@@ -140,6 +140,8 @@ public class OnceAtNightAtClub {
         System.out.println("4 - My name is Britney Spears.");
         System.out.println("5 - My name is Your Daddy(Mommy).");
         System.out.println("6 - You can call me how you want.");
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         int specialDiscountTicket = 0;
         int choice = sc.nextInt();
         switch (choice) {
@@ -214,10 +216,11 @@ public class OnceAtNightAtClub {
                 }
                 break;
         }
-
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         System.out.println(" ");
         System.out.println("Now you have" + " " + specialDiscountTicket + " " + "special discount ticket.");
         System.out.println(" ");
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         System.out.println("Do you want to tell something?");
         System.out.println("You can tell:");
         System.out.println("1 - Fuck you guys.");
@@ -237,7 +240,7 @@ public class OnceAtNightAtClub {
                 System.out.println("...");
                 break;
         }
-
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         System.out.println("You enter the club.");
         System.out.println("In the club plays music that you like.");
         System.out.println("There are a lot of beautiful people in the club, men and women.");

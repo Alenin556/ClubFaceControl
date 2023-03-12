@@ -1,4 +1,4 @@
-package dataHelp;
+package data;
 
 public class HowMuchCashYouWantToTake {
 
@@ -14,6 +14,9 @@ public class HowMuchCashYouWantToTake {
     public static void setCash(int newCash) {
         cash = newCash;
     }
+
+
+
     public static void bringCash(int cashChoice) {
         Cash cashClass = new Cash();
         switch (cashChoice) {

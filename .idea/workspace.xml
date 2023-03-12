@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d744436f-6cbd-478c-9f87-3751ef39edec" name="Changes" comment="update 3.0 try to build simulator with methods, not success now">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataHelp/Cash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataHelp/Cash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataHelp/HowMuchCashYouWantToTake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataHelp/HowMuchCashYouWantToTake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataHelp/HowToGetToClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataHelp/HowToGetToClub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataHelp/SimulatorWithMethodsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataHelp/SimulatorWithMethodsClass.java" afterDir="false" />
+    <list default="true" id="d744436f-6cbd-478c-9f87-3751ef39edec" name="Changes" comment="update 3.1 little success in methods">
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/FaceControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/TellSomethingToGuardOnAfterFaceControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OnceAtNightAtClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnceAtNightAtClub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataHelp/Beginning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/Beginning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataHelp/Cash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/Cash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataHelp/HowMuchCashYouWantToTake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/HowMuchCashYouWantToTake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataHelp/HowToGetToClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/HowToGetToClub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataHelp/SimulatorWithMethodsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SimulatorWithMethodsClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataHelp/switchConstruction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/switchConstruction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +114,7 @@
       </method>
     </configuration>
     <configuration name="SimulatorWithMethodsClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataHelp.SimulatorWithMethodsClass" />
+      <option name="MAIN_CLASS_NAME" value="SimulatorWithMethodsClass" />
       <module name="OnceAtNightAtClub.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -322,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678603954077</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="update 3.1 little success in methods">
+      <created>1678605862899</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1678605862899</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -353,7 +364,8 @@
     <MESSAGE value="update 2.7 added some changes" />
     <MESSAGE value="update 3.0 new build in data" />
     <MESSAGE value="update 3.0 try to build simulator with methods, not success now" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 3.0 try to build simulator with methods, not success now" />
+    <MESSAGE value="update 3.1 little success in methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 3.1 little success in methods" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

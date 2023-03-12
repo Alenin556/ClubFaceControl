@@ -1,4 +1,4 @@
-package dataHelp;
+package data;
 
 public class Cash {
     int cash ;
