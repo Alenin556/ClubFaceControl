@@ -23,18 +23,19 @@ public class OnceAtNightAtClub {
         System.out.println("2 - 5000");
         System.out.println("3 - 10000");
         System.out.println("4 - 20000");
-        int cash = sc.nextInt();
-        switch (cash) {
+        int cash = 0;
+        int cashChoice = sc.nextInt();
+        switch (cashChoice) {
             case 1:
-                cash = 5000;
+                cash = 2500;
                 System.out.println("You have 5000 for the night. Good luck. Have a good night.");
                 break;
             case 2:
-                cash = 7500;
+                cash = 5000;
                 System.out.println("You have 7500 for the night. Good luck. Have a good night.");
                 break;
             case 3:
-                cash = 10900;
+                cash = 10000;
                 System.out.println("You have 10900 for the night. Good luck. Have a good night.");
                 break;
             case 4:
@@ -45,7 +46,7 @@ public class OnceAtNightAtClub {
                 System.out.println("You entered the wrong input. Try again.");
                 return;
         }
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         System.out.println("Now you leave your house..");
         System.out.println(" ");
         System.out.println("How do you want to get to the club ?");

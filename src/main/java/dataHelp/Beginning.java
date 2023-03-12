@@ -1,16 +1,10 @@
 package dataHelp;
 
 import java.util.Scanner;
-
 public class Beginning {
 
-    public static void beginning() {
-        Scanner sc = new Scanner(System.in);
+    public static void beginning(String name) {
 
-        System.out.println("Welcome in simulator :");
-        System.out.println("************* Once at night at club *************");
-        System.out.println("Enter your name:");
-        String name = sc.nextLine();
         System.out.println("Your name is :" + name);
         System.out.println(" ");
         System.out.println("The story begins.");
@@ -20,6 +14,7 @@ public class Beginning {
         System.out.println("I think I should go to the club tonight, to relax and chill.");
         System.out.println(" ");
         System.out.println(" ");
+        /*
         System.out.println("Now you can enter amount of money you want to take : ");
         System.out.println("1 - 5000");
         System.out.println("2 - 7500");
@@ -56,6 +51,7 @@ public class Beginning {
             default:
                 System.out.println("You entered the wrong input. Try again.");
                 return;
+
+         */
         }
     }
-}
