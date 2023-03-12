@@ -58,7 +58,7 @@ public class SimulatorWithMethodsClass {
         int howPassFC = sc.nextInt();
         fc.faceControl(howPassFC);
         System.out.println(" ");
-        System.out.println("Now you have" + " " + fc.getSpecialDiscountTicket() + " " + "special discount ticket.");
+        System.out.println("You have" + " " + fc.getSpecialDiscountTicket() + " " + "special discount ticket.");
         System.out.println(" ");
         System.out.println("Do you want to tell something?");
         System.out.println("You can tell:");
