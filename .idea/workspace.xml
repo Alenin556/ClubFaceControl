@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d744436f-6cbd-478c-9f87-3751ef39edec" name="Changes" comment="update 2.7 added some changes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataHelp/Cash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataHelp/HowMuchCashYouWantToTake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataHelp/HowToGetToClub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataHelp/SimulatorWithMethodsClass.java" afterDir="false" />
+    <list default="true" id="d744436f-6cbd-478c-9f87-3751ef39edec" name="Changes" comment="update 3.0 new build in data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OnceAtNightAtClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OnceAtNightAtClub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataHelp/Beginning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataHelp/Beginning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataHelp/SimulatorWithMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataHelp/Cash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataHelp/Cash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataHelp/HowMuchCashYouWantToTake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataHelp/HowMuchCashYouWantToTake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataHelp/HowToGetToClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataHelp/HowToGetToClub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataHelp/SimulatorWithMethodsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataHelp/SimulatorWithMethodsClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678546238762</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="update 3.0 new build in data">
+      <created>1678600763369</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1678600763370</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -341,7 +344,8 @@
     <MESSAGE value="update 2.6 update how to get to the bar" />
     <MESSAGE value="update 2.6" />
     <MESSAGE value="update 2.7 added some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 2.7 added some changes" />
+    <MESSAGE value="update 3.0 new build in data" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 3.0 new build in data" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

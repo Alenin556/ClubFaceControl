@@ -1,15 +1,14 @@
 package dataHelp;
 
+import java.util.Scanner;
+
 public class HowToGetToClub {
     public static void main(String[] args) {
 
     }
     public static void getToClubBy(int howToGetChoice) {
         Cash cashClass = new Cash();
-        System.out.println("You can make a choice. Every choice will cost you money.");
-        System.out.println("1 - Walk to the club - 0 ");
-        System.out.println("2 - Take a bus - 60 ");
-        System.out.println("3 - Take a taxi - 750 ");
+        Scanner sc = new Scanner(System.in);
         switch (howToGetChoice) {
             case 1:
                 System.out.println("You walk to the club. Your wallet :" + cashClass.getCash());
@@ -54,8 +53,7 @@ public class HowToGetToClub {
                             System.out.println("You walk to the club. Your wallet :" + cashClass.getCash());
                             break;
                         case 2:
-                            if (cash >= 60) {
-                                cash = cash - 60;
+                            if (cashClass.getCash() >= 0) {
                                 System.out.println("You take the bus to the club. Your wallet :" + cashClass.getCash());
                             } else {
                                 System.out.println("Your wallet :" + cashClass.getCash());

@@ -1,6 +1,7 @@
 package dataHelp;
 
 public class Cash {
+    int cash ;
 
     public int getCash() {
         return cash;
@@ -9,8 +10,6 @@ public class Cash {
     public void setCash(int cash) {
         this.cash = cash;
     }
-    int cash = 0;
-    public static void main(String[] args) {
 
-    }
+
 }
